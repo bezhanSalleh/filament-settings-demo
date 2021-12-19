@@ -11,8 +11,8 @@
         "laravel/framework": "^8.65",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "filament/filament": "@dev",
-        "filament/spatie-laravel-settings-plugin": "@dev"
+        "filament/filament": "^2.0",
+        "filament/spatie-laravel-settings-plugin": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -60,21 +60,5 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": {
-        "filament/filament": {
-            "type": "path",
-            "url": "/Users/bsalleh/Sites/contributions/filament/packages/admin",
-            "options": {
-                "symlink": true
-            }
-        },
-        "filament/spatie-laravel-settings-plugin": {
-            "type": "path",
-            "url": "/Users/bsalleh/Sites/contributions/filament/packages/spatie-laravel-settings-plugin",
-            "options": {
-                "symlink": true
-            }
-        }
-    }
+    "prefer-stable": true
 }

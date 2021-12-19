@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "225593671056eb505be0b01bc2fa1b0e",
+    "content-hash": "283feb128e52cbe59a5c4032985bbaec",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -1239,11 +1239,17 @@
         },
         {
             "name": "filament/filament",
-            "version": "2.x-dev",
+            "version": "v2.5.31",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-filament/admin.git",
+                "reference": "48c1f926b1d666c20f43101bf4ec1f128be273df"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/bsalleh/Sites/contributions/filament/packages/admin",
-                "reference": "f8930c59281f5bce2467a5b664108def528fcd12"
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-filament/admin/zipball/48c1f926b1d666c20f43101bf4ec1f128be273df",
+                "reference": "48c1f926b1d666c20f43101bf4ec1f128be273df",
+                "shasum": ""
             },
             "require": {
                 "danharrin/livewire-rate-limiting": "^0.3.0",
@@ -1279,6 +1285,7 @@
                     "Filament\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1288,14 +1295,11 @@
                 "issues": "https://github.com/laravel-filament/filament/issues",
                 "source": "https://github.com/laravel-filament/filament"
             },
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
+            "time": "2021-12-17T21:08:51+00:00"
         },
         {
             "name": "filament/forms",
-            "version": "2.x-dev",
+            "version": "v2.5.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-filament/forms.git",
@@ -1321,7 +1325,6 @@
                 "php": "^8.0",
                 "spatie/laravel-package-tools": "^1.9"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1349,11 +1352,17 @@
         },
         {
             "name": "filament/spatie-laravel-settings-plugin",
-            "version": "2.x-dev",
+            "version": "v2.5.31",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-filament/spatie-laravel-settings-plugin.git",
+                "reference": "3e3fb465a23ee6d784ce1f51cbf0f5dba23851c9"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/bsalleh/Sites/contributions/filament/packages/spatie-laravel-settings-plugin",
-                "reference": "2db46c6b161f2e7ce9d8cdc59d0a503bd44660bf"
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-filament/spatie-laravel-settings-plugin/zipball/3e3fb465a23ee6d784ce1f51cbf0f5dba23851c9",
+                "reference": "3e3fb465a23ee6d784ce1f51cbf0f5dba23851c9",
+                "shasum": ""
             },
             "require": {
                 "filament/filament": "self.version",
@@ -1373,6 +1382,7 @@
                     "Filament\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1382,14 +1392,11 @@
                 "issues": "https://github.com/laravel-filament/filament/issues",
                 "source": "https://github.com/laravel-filament/filament"
             },
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
+            "time": "2021-12-16T00:50:30+00:00"
         },
         {
             "name": "filament/tables",
-            "version": "2.x-dev",
+            "version": "v2.5.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-filament/tables.git",
@@ -1415,7 +1422,6 @@
                 "php": "^8.0",
                 "spatie/laravel-package-tools": "^1.9"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -9209,10 +9215,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "filament/filament": 20,
-        "filament/spatie-laravel-settings-plugin": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
